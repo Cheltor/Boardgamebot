@@ -31,3 +31,8 @@ python boardgamebot.py
 ```
 
 React with 🎲 to an announcement to create the RSVP. People can then use ✅ / ❌ and 0️⃣-5️⃣ reactions to update attendance.
+
+## Deploying on Railway
+- Set environment variables in Railway: `DISCORD_TOKEN` (required) and optionally `CHANNEL_ID`.
+- Railway should detect Python and install from `requirements.txt`.
+- The included `Procfile` runs `python boardgamebot.py` as the start command.
